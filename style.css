@@ -1,3 +1,21 @@
+@media (max-width: 768px) {
+    body > * {
+        display: none;
+    }
+    body::before {
+        content: "This application is not available on mobile devices.";
+        display: block;
+        color: #FFF;
+        text-align: center;
+        font-family: Radley;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.25px;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
